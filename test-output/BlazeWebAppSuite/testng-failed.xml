@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BlazeWebAppSuite]">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="WebAppTest(failed)">
+    <groups>
+      <run>
+        <include name="featureOne"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="demoBlazeTest.BlazeWebApp">
+        <methods>
+          <include name="addItemtoCart"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- demoBlazeTest.BlazeWebApp -->
+    </classes>
+  </test> <!-- WebAppTest(failed) -->
+</suite> <!-- Failed suite [BlazeWebAppSuite] -->
