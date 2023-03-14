@@ -8,6 +8,7 @@
           <include name="extentfinishUp"/>
           <include name="invalidLogin"/>
           <include name="extentSetup"/>
+          <include name="login"/>
           <include name="failure"/>
           <include name="setup"/>
         </methods>
