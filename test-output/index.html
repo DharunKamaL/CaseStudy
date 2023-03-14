@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1387959712\testng-customsuite.xml</span>
+                    <span>C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1110229640\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
+                    <span class="method-stats">9 methods, 2 failed,   7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -107,6 +107,11 @@
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="demoBlazeTest.BlazeWebApp" hash-for-method="invalidLogin">invalidLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="demoBlazeTest.BlazeWebApp" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
@@ -118,7 +123,22 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="demoBlazeTest.BlazeWebApp" hash-for-method="addItemtoCart(Laptops, Sony vaio i7)">addItemtoCart(Laptops, Sony vaio i7)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="demoBlazeTest.BlazeWebApp" hash-for-method="addItemtoCart(Phones, Samsung galaxy s6)">addItemtoCart(Phones, Samsung galaxy s6)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="demoBlazeTest.BlazeWebApp" hash-for-method="addItemtoCart(Phones, Nokia lumia 1520)">addItemtoCart(Phones, Nokia lumia 1520)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="demoBlazeTest.BlazeWebApp" hash-for-method="addItemtoCart(Laptops, Dell i7 8gb)">addItemtoCart(Laptops, Dell i7 8gb)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="demoBlazeTest.BlazeWebApp" hash-for-method="addItemtoCart(Phones, Nexus 6)">addItemtoCart(Phones, Nexus 6)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -128,27 +148,7 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="demoBlazeTest.BlazeWebApp" hash-for-method="addItemtoCart(Phone, Nexus 6)">addItemtoCart(Phone, Nexus 6)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="demoBlazeTest.BlazeWebApp" hash-for-method="addItemtoCart(Phone, Samsung galaxy s6)">addItemtoCart(Phone, Samsung galaxy s6)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="demoBlazeTest.BlazeWebApp" hash-for-method="addItemtoCart(Phone, Nokia lumia 1520)">addItemtoCart(Phone, Nokia lumia 1520)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="demoBlazeTest.BlazeWebApp" hash-for-method="delItem">delItem</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="demoBlazeTest.BlazeWebApp" hash-for-method="login">login</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -180,14 +180,14 @@
                   </a> <!-- invalidLogin -->
                   <span class="method-name">invalidLogin</span>
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;Welcome&apos;)]&quot;}
-  (Session info: chrome=110.0.5481.178)
+  (Session info: chrome=111.0.5563.65)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_331&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7d8f5b9d9277ea5afc7745d5cf592896, findElement {using=xpath, value=//a[contains(text(),&apos;Welcome&apos;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63825}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63825/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 7d8f5b9d9277ea5afc7745d5cf592896
+Command: [420872719202448f6afe44fe94d55179, findElement {using=xpath, value=//a[contains(text(),&apos;Welcome&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58596}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58596/devtoo..., se:cdpVersion: 111.0.5563.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 420872719202448f6afe44fe94d55179
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -203,7 +203,69 @@ Session ID: 7d8f5b9d9277ea5afc7745d5cf592896
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-	at demoBlazeTest.BlazeWebApp.invalidLogin(BlazeWebApp.java:87)
+	at demoBlazeTest.BlazeWebApp.invalidLogin(BlazeWebApp.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;Welcome&apos;)]&quot;}
+  (Session info: chrome=111.0.5563.65)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_331&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [420872719202448f6afe44fe94d55179, findElement {using=xpath, value=//a[contains(text(),&apos;Welcome&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58596}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58596/devtoo..., se:cdpVersion: 111.0.5563.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 420872719202448f6afe44fe94d55179
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at demoBlazeTest.BlazeWebApp.login(BlazeWebApp.java:110)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -246,10 +308,34 @@ Session ID: 7d8f5b9d9277ea5afc7745d5cf592896
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addItemtoCart(Laptops, Sony vaio i7)">
-                  </a> <!-- addItemtoCart(Laptops, Sony vaio i7) -->
+                  <a name="addItemtoCart(Phones, Samsung galaxy s6)">
+                  </a> <!-- addItemtoCart(Phones, Samsung galaxy s6) -->
                   <span class="method-name">addItemtoCart</span>
-                  <span class="parameters">(Laptops, Sony vaio i7)</span>
+                  <span class="parameters">(Phones, Samsung galaxy s6)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItemtoCart(Phones, Nokia lumia 1520)">
+                  </a> <!-- addItemtoCart(Phones, Nokia lumia 1520) -->
+                  <span class="method-name">addItemtoCart</span>
+                  <span class="parameters">(Phones, Nokia lumia 1520)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItemtoCart(Laptops, Dell i7 8gb)">
+                  </a> <!-- addItemtoCart(Laptops, Dell i7 8gb) -->
+                  <span class="method-name">addItemtoCart</span>
+                  <span class="parameters">(Laptops, Dell i7 8gb)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItemtoCart(Phones, Nexus 6)">
+                  </a> <!-- addItemtoCart(Phones, Nexus 6) -->
+                  <span class="method-name">addItemtoCart</span>
+                  <span class="parameters">(Phones, Nexus 6)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -262,40 +348,9 @@ Session ID: 7d8f5b9d9277ea5afc7745d5cf592896
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="addItemtoCart(Phone, Nexus 6)">
-                  </a> <!-- addItemtoCart(Phone, Nexus 6) -->
-                  <span class="method-name">addItemtoCart</span>
-                  <span class="parameters">(Phone, Nexus 6)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="addItemtoCart(Phone, Samsung galaxy s6)">
-                  </a> <!-- addItemtoCart(Phone, Samsung galaxy s6) -->
-                  <span class="method-name">addItemtoCart</span>
-                  <span class="parameters">(Phone, Samsung galaxy s6)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="addItemtoCart(Phone, Nokia lumia 1520)">
-                  </a> <!-- addItemtoCart(Phone, Nokia lumia 1520) -->
-                  <span class="method-name">addItemtoCart</span>
-                  <span class="parameters">(Phone, Nokia lumia 1520)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="delItem">
                   </a> <!-- delItem -->
                   <span class="method-name">delItem</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
-                  <span class="method-name">login</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -310,7 +365,7 @@ Session ID: 7d8f5b9d9277ea5afc7745d5cf592896
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1387959712\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1110229640\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -379,44 +434,44 @@ data.addRows(9);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'invalidLogin')
 data.setCell(0, 2, 'demoBlazeTest.BlazeWebApp')
-data.setCell(0, 3, 40659);
+data.setCell(0, 3, 49428);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'addItemtoCart')
+data.setCell(1, 1, 'login')
 data.setCell(1, 2, 'demoBlazeTest.BlazeWebApp')
-data.setCell(1, 3, 13664);
+data.setCell(1, 3, 43935);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'addItemtoCart')
 data.setCell(2, 2, 'demoBlazeTest.BlazeWebApp')
-data.setCell(2, 3, 13266);
+data.setCell(2, 3, 43087);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'addItemtoCart')
 data.setCell(3, 2, 'demoBlazeTest.BlazeWebApp')
-data.setCell(3, 3, 12624);
+data.setCell(3, 3, 40684);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'addItemtoCart')
 data.setCell(4, 2, 'demoBlazeTest.BlazeWebApp')
-data.setCell(4, 3, 12394);
+data.setCell(4, 3, 34490);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'addItemtoCart')
 data.setCell(5, 2, 'demoBlazeTest.BlazeWebApp')
-data.setCell(5, 3, 12366);
+data.setCell(5, 3, 32044);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'login')
+data.setCell(6, 1, 'addItemtoCart')
 data.setCell(6, 2, 'demoBlazeTest.BlazeWebApp')
-data.setCell(6, 3, 11787);
+data.setCell(6, 3, 27469);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'delItem')
 data.setCell(7, 2, 'demoBlazeTest.BlazeWebApp')
-data.setCell(7, 3, 11745);
+data.setCell(7, 3, 26491);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'placeOrder')
 data.setCell(8, 2, 'demoBlazeTest.BlazeWebApp')
-data.setCell(8, 3, 7530);
+data.setCell(8, 3, 2121);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -449,85 +504,87 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">1014 ms</span>
+                <span class="method-start">976 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">invalidLogin</span>
-                <span class="method-start">12481 ms</span>
+                <span class="method-start">12681 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">failure([TestResult name=invalidLogin status=FAILURE method=BlazeWebApp.invalidLogin()[pri:1, instance:demoB...)</span>
-                <span class="method-start">53203 ms</span>
+                <span class="method-start">62191 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">login</span>
-                <span class="method-start">54190 ms</span>
+                <span class="method-start">64242 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">failure([TestResult name=login status=SUCCESS method=BlazeWebApp.login()[pri:2, instance:demoBlazeTest.Blaze...)</span>
-                <span class="method-start">65980 ms</span>
+                <span class="method-name">failure([TestResult name=login status=FAILURE method=BlazeWebApp.login()[pri:2, instance:demoBlazeTest.Blaze...)</span>
+                <span class="method-start">108188 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">addItemtoCart(Phone, Samsung galaxy s6)</span>
-                <span class="method-start">66115 ms</span>
+                <span class="method-name">addItemtoCart(Phones, Samsung galaxy s6)</span>
+                <span class="method-start">109046 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">failure([TestResult name=addItemtoCart status=SUCCESS method=BlazeWebApp.addItemtoCart(java.lang.String,java...)</span>
-                <span class="method-start">78515 ms</span>
+                <span class="method-start">136522 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">addItemtoCart(Phone, Nokia lumia 1520)</span>
-                <span class="method-start">78531 ms</span>
+                <span class="method-name">addItemtoCart(Phones, Nokia lumia 1520)</span>
+                <span class="method-start">136524 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">failure([TestResult name=addItemtoCart status=SUCCESS method=BlazeWebApp.addItemtoCart(java.lang.String,java...)</span>
-                <span class="method-start">91171 ms</span>
+                <span class="method-start">171019 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">addItemtoCart(Phone, Nexus 6)</span>
-                <span class="method-start">91176 ms</span>
+                <span class="method-name">addItemtoCart(Phones, Nexus 6)</span>
+                <span class="method-start">171026 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">failure([TestResult name=addItemtoCart status=SUCCESS method=BlazeWebApp.addItemtoCart(java.lang.String,java...)</span>
-                <span class="method-start">103554 ms</span>
+                <span class="method-start">203079 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">addItemtoCart(Laptops, MacBook air)</span>
-                <span class="method-start">103557 ms</span>
+                <span class="method-start">203081 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">failure([TestResult name=addItemtoCart status=SUCCESS method=BlazeWebApp.addItemtoCart(java.lang.String,java...)</span>
-                <span class="method-start">116827 ms</span>
+                <span class="method-start">243772 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">addItemtoCart(Laptops, Sony vaio i7)</span>
-                <span class="method-start">116829 ms</span>
+                <span class="method-name">addItemtoCart(Laptops, Dell i7 8gb)</span>
+                <span class="method-start">243773 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">failure([TestResult name=addItemtoCart status=SUCCESS method=BlazeWebApp.addItemtoCart(java.lang.String,java...)</span>
-                <span class="method-start">130497 ms</span>
+                <span class="method-start">286865 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">delItem</span>
-                <span class="method-start">130536 ms</span>
+                <span class="method-start">286894 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">failure([TestResult name=delItem status=SUCCESS method=BlazeWebApp.delItem()[pri:4, instance:demoBlazeTest.B...)</span>
-                <span class="method-start">142291 ms</span>
+                <span class="method-start">313388 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">placeOrder</span>
-                <span class="method-start">142294 ms</span>
+                <span class="method-start">313390 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">failure([TestResult name=placeOrder status=SUCCESS method=BlazeWebApp.placeOrder()[pri:5, instance:demoBlaze...)</span>
-                <span class="method-start">149830 ms</span>
+                <span class="method-start">315518 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">extentfinishUp</span>
-                <span class="method-start">149848 ms</span>
+                <span class="method-start">315523 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

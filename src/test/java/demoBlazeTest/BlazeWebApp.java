@@ -152,9 +152,9 @@ public class BlazeWebApp {
 		actions.scrollByAmount(0, 150).perform();
 		int itemSizeBefDel = itemsBefDel.size();
 		String proTxt = driver.findElement(By.xpath("(//td[2])[1]")).getText();
-		boolean itemsAdded = true;
+//		boolean itemsAdded = true;
 		if (itemSizeBefDel > 1) {
-			Assert.assertTrue(itemsAdded);
+//			Assert.assertTrue(itemsAdded);
 			driver.findElement(By.xpath("(//a[text()='Delete'])[1]")).click();
 		}
 		
